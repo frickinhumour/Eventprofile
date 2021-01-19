@@ -1,23 +1,23 @@
 body{
 background-color: black;
+width:fit-content;
 }
 
 .Name{
     background: url("images/img2.jpg") no-repeat center fixed;
     display: flex;
     height:700px;
-    background-size: cover;
+    background-size:contain;
     position: relative;
   
 }
 
-.Name ul{
+.intro ul{
     color:black;
-    display: flex;
     font-weight: 400;
     list-style: none;
     display:inline;
-    width: 98%;
+    width:100%;
     background-color:rgba(243, 103, 9, 0.808);
     background-blend-mode: luminosity;
     float:right;
@@ -32,7 +32,6 @@ background-color: black;
     font:oblique Impact,Helvetica,Arial,sans-serif;
     margin-top:40px;
     font-size: 2em;
-    text-align: center;
     margin-inline:7em;
     margin-bottom: 20px;
     font-weight:bold;
@@ -129,6 +128,7 @@ background-color: black;
 }
 .listcontact{
     display: inline-flex;
+    
 
 }
 
@@ -139,12 +139,13 @@ background-color: black;
 
 .listcontact li{
     color:whitesmoke;
+    list-style: none;
 }
 
 
 
 
-@media(max-width:600px){
+@media(max-width:800px){
     .gallary img{
         height: 0px;
         width: 0px;
@@ -171,7 +172,14 @@ background-color: black;
     }
 
     .ytss img {
-        height: 300px;
-        width: 400px;
+         margin:0px;
+         height: 100%;
+         width: 100%;
     }
+
+    .intro ul li{
+        margin-inline:1em;
+    }
+
+
 }
