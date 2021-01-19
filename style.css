@@ -7,7 +7,7 @@ width:fit-content;
     background: url("images/img2.jpg") no-repeat center fixed;
     display: flex;
     height:700px;
-    background-size:contain;
+    background-size:cover;
     position: relative;
   
 }
