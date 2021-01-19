@@ -7,7 +7,7 @@ width:fit-content;
     background: url("images/img2.jpg") no-repeat center fixed;
     display: flex;
     height:700px;
-    background-size:cover;
+    background-size:contain;
     position: relative;
   
 }
@@ -135,6 +135,9 @@ width:fit-content;
 .listcontact img{
     height:70px;
     width:70px;
+    list-style: none;
+
+    
 }
 
 .listcontact li{
@@ -145,7 +148,7 @@ width:fit-content;
 
 
 
-@media(max-width:800px){
+@media(max-width:600px){
     .gallary img{
         height: 0px;
         width: 0px;
