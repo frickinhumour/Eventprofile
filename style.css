@@ -22,7 +22,7 @@ width:fit-content;
     background-blend-mode: luminosity;
     float:right;
     top: 90%;
-    position:relative;
+    position:absolute;
 }
 
 .Name ul li {
@@ -162,7 +162,9 @@ width:fit-content;
         height:25%;
         width: 25%;
     }
-    
+    .intro ul{
+        position: relative;
+    }
     .gallary h1{
         margin:0px;
         color:black;
